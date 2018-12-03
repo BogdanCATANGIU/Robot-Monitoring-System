@@ -1,0 +1,6 @@
+applications:
+- name: robot
+  random-route: true
+  memory: 256M
+  path: target/robot-1.0-SNAPSHOT.war
+  buildpack: java_buildpack
